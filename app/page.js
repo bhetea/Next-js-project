@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Users from './components/Users';
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
           <li><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
+
+      <Users />
     </div>
   );
 }
