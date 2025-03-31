@@ -1,10 +1,10 @@
-import Link from 'next/link';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Users from './components/Users';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className='container-fluid '>
+      <h4>Home Page</h4>
       <Users />
     </div>
   );
