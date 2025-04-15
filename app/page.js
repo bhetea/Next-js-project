@@ -18,27 +18,24 @@ export default function Home() {
           </div>
 
           <div className="col-md-6">
-            <div className="fw-bold py-5 px-5 text-white d-flex justify-content-center display-5 align-items-center">
-              
-            </div>
+            <div className="fw-bold py-5 px-5 text-white d-flex justify-content-center display-5 align-items-center"></div>
           </div>
         </div>
-      </div>
-
-      <div
-        className="w-50 h-25"
-        style={{
-          position: "absolute",
-          marginTop: "-70px",
-          marginLeft: "600px",
-          backgroundColor: "#0F52BA",
-        }}
-      >
-        <div className="row">
-          <div className="col-md-6">
-            <p className="px-3 text-white display-6">
-              Right knowledge births right expectations
-            </p>
+        <div
+          className="w-50 h-30"
+          style={{
+            position: "absolute",
+            marginTop: "40px",
+            marginLeft: "600px",
+            backgroundColor: "#0F52BA",
+          }}
+        >
+          <div className="row">
+            <div className="col-md-6">
+              <p className="px-3 text-white display-6 text-wrap">
+                Right knowledge births right expectations
+              </p>
+            </div>
           </div>
         </div>
       </div>
