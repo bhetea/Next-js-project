@@ -1,9 +1,11 @@
+import { Poetsen_One, poetsenOne } from '@/app/ui/fonts';
+
 export default function Blog() {
   return (
-    <div className="container bg-dark text-white px-5 py-5">
+    <div className="container-fluid px-5 py-5 fs-2">
       <h1 className="text-center">Blog</h1>
 
-      <p>
+      <p className={poetsenOne.className}>
         Blockchain technology has revolutionized industries by providing
         decentralized, secure, and transparent solutions. From finance to
         healthcare, businesses are leveraging blockchain to enhance security,

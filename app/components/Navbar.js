@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from "@/app/style.module.css";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-3 d-flex justify-content-center">
+    <nav className={`navbar navbar-expand-lg navbar-light p-3 d-flex justify-content-center ${styles.bgtrans}`}>
       <div className="container d-flex justify-content-center">
         <Link className="navbar-brand mx-3" href="/">
           Home
