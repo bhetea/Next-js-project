@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import styles from "@/app/style.module.css";
 
 export const metadata = {
   title: 'Next.js',
@@ -14,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body>
-        <header><Navbar /></header>
+        <header className={styles.bdgstick}><Navbar /></header>
         {children}
       </body>
     </html>
