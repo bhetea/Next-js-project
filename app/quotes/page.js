@@ -1,11 +1,23 @@
-// app/quotes/page.js
-
 async function getQuote() {
-  const res = await fetch('https://zenquotes.io/api/random', {
-    cache: 'no-store', // so it fetches fresh on every request
-  });
-  const data = await res.json();
-  return data[0];
+  try {
+    const res = await fetch('https://api.quotable.io/random', {
+      cache: 'no-store',
+    });
+    
+    if (!res.ok) throw new Error('Failed to fetch quote');
+    
+    const data = await res.json();
+    return {
+      q: data.content,
+      a: data.author
+    };
+  } catch (error) {
+    console.error('Error fetching quote:', error);
+    return {
+      q: "The only true wisdom is in knowing you know nothing.",
+      a: "Socrates"
+    };
+  }
 }
 
 export default async function QuotesPage() {
