@@ -1,13 +1,13 @@
 .backgroundimg {
-    background-image: url('/background.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-    width: 100%;
-    position: relative;
-  }
+  background-image: url("/img_2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
 
-  /* Add a dark overlay */
+/* Add a dark overlay */
 .backgroundimg::before {
   content: "";
   position: absolute;
@@ -20,4 +20,22 @@
 .backgroundimg > * {
   position: relative;
   z-index: 3;
+}
+
+.bdgstick {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.bgtrans {
+  color: white;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(46, 29, 40, 0.754);
+
+}
+
+.home {
+  margin-top: -5rem;
 }
