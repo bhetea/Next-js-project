@@ -1,14 +1,14 @@
 import Image from "next/image";
-import { lusitana } from "@/app/ui/fonts";
+import { lusitana, poetsenOne } from "@/app/ui/fonts";
 
 export default function About() {
   return (
     <div className="container-fluid">
-      <h1 className="d-flex justify-content-center mt-5">About Me</h1>
+      <h1 className={`d-flex justify-content-center mt-5 ${poetsenOne.className} `}>About Me</h1>
       <div className="row gy-1 justify-content-between mt-5 px-3 py-3">
         <div
           className="col-md-4 align-self-start img-fluid"
-          style={{ width: "500px", height: "500px", position: "relative" }}
+          style={{ width: "500px", height: "450px", position: "relative" }}
         >
           <Image
             src="/images/bee.jpeg"
