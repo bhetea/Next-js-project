@@ -3,6 +3,7 @@ import styles from "@/app/style.module.css";
 import Quotes from "./quotes/page.js";
 import About from "./about/page.js";
 import Blog from "./blog/page.js";
+import Contact from "./contact/page.js";
 
 export default function Home() {
   return (
@@ -25,11 +26,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="mb-5 container-fluid">
         <About />
       </div>
 
-      <div className="container-fluid">
+      <div className="mt-5 bgcolors">
+        <Contact />
+      </div>
+
+      <div className="bgcolors">
         <Blog />
       </div>
     </div>
