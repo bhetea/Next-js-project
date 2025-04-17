@@ -1,4 +1,4 @@
-import { Inter, Lusitana,Poetsen_One } from "next/font/google";
+import { Inter, Lusitana, Poetsen_One, Bungee_Spice, } from "next/font/google";
 
 export const inter = Inter({ subsets: ["latin"] });
 
@@ -8,6 +8,12 @@ export const lusitana = Lusitana({
 });
 
 export const poetsenOne = Poetsen_One({
+  subsets: ['latin'],
+  weight: ['400',], // Adjust weights as needed
+  display: 'swap',
+});
+
+export const bungeeSpice = Bungee_Spice({
   subsets: ['latin'],
   weight: ['400',], // Adjust weights as needed
   display: 'swap',

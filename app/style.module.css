@@ -7,6 +7,13 @@
   position: relative;
 }
 
+.blogimg{
+  background-image: url("/background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* Add a dark overlay */
 .backgroundimg::before {
   content: "";
@@ -38,4 +45,12 @@
 
 .home {
   margin-top: -5rem;
+}
+
+.bgcolors {
+  background-color: rgba(29, 19, 26, 0.744);
+  backdrop-filter: blur(50px);
+  background-image: linear-gradient(to bottom right, rgba(29, 19, 26, 0.487), rgba(90, 38, 73, 0.744), rgba(163, 128, 153, 0.744) );
+  color: white;
+  margin-top: -0.9rem;
 }
