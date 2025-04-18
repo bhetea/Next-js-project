@@ -3,7 +3,7 @@ import { lusitana, poetsenOne } from "@/app/ui/fonts";
 
 export default function About() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid pb-5">
       <h1 className={`d-flex justify-content-center mt-5 ${poetsenOne.className} `}>About Me</h1>
       <div className="row gy-1 justify-content-between mt-5 px-3 py-3">
         <div
