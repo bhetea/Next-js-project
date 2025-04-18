@@ -1,4 +1,3 @@
-import styles from "@/app/style.module.css";
 import Image from "next/image";
 
 export default function Contact() {
@@ -19,7 +18,7 @@ export default function Contact() {
             />
           </div>
           <div className="">
-            <span style={{ color: "rgb(228, 122, 8)" }} className="fs-5 mt-3">
+            <span style={{ color: "#e47a08" }} className="fs-5 mt-3">
               The Power of Practical Experience
             </span>
             <div className="mt-3">

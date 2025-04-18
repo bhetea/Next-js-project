@@ -4,6 +4,7 @@ import Quotes from "./quotes/page.js";
 import About from "./about/page.js";
 import Blog from "./blog/page.js";
 import Contact from "./contact/page.js";
+import Profile from "./profile/page.js";
 
 export default function Home() {
   return (
@@ -30,7 +31,11 @@ export default function Home() {
         <About />
       </div>
 
-      <div className="mt-5 bgcolors">
+      <div className="mt-5">
+        <Profile />
+      </div>
+
+      <div className="mt-5">
         <Contact />
       </div>
 

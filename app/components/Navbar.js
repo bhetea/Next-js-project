@@ -20,6 +20,9 @@ export default function Header() {
         <Link className="nav-link mx-3" href="/quotes">
           Quotes
         </Link>
+        <Link className="nav-link mx-3" href="/profile">
+          Profile
+        </Link>
       </div>
     </nav>
   );
