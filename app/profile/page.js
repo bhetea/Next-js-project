@@ -7,7 +7,7 @@ import {
   DiReact,
 } from "react-icons/di";
 import { AiOutlineHtml5, AiOutlineDocker } from "react-icons/ai";
-import { inconsolata } from "../ui/fonts";
+import styles from "@/app/style.module.css";
 
 export default function Profile() {
   return (
@@ -20,10 +20,10 @@ export default function Profile() {
           >
             I AM GREAT AT THESE!!
           </span>
-          <h4 className="" style={{ color: "rgba(5, 5, 4, 0.95)" }}>
+          <h2 className="mt-3 display-6 fw-bold" style={{ color: "rgba(5, 5, 4, 0.95)" }}>
             You are rest assured of a perfect websit with these technologies
-          </h4>
-          <p>
+          </h2>
+          <p className="mt-3">
             Highly efficient, delivering high-quality work on time, optimizing
             processes, and consistently meeting project deadlines with
             precision.
@@ -33,11 +33,11 @@ export default function Profile() {
 
       <div className="row mt-5 gap-3 d-flex justify-content-center">
         <div
-          className="col-md-6 shadow border-light card mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <AiOutlineHtml5 size={60} style={{ color: "#e47a08" }} />
+            <AiOutlineHtml5 size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -50,11 +50,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="col-md-6 col-sm-12 shadow card border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiBootstrap size={60} style={{ color: "#e47a08" }} />
+            <DiBootstrap size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -67,11 +67,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="col-md-6 col-sm-12 card shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiJavascript1 size={60} style={{ color: "#e47a08" }} />
+            <DiJavascript1 size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -84,11 +84,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="col-md-6 card shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiPhp size={60} style={{ color: "#e47a08" }} />
+            <DiPhp size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -104,11 +104,11 @@ export default function Profile() {
 
       <div className="row pb-5 justify-content-center gap-3 mt-5">
         <div
-          className="card col-md-6 shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiLaravel size={60} style={{ color: "#e47a08" }} />
+            <DiLaravel size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -121,11 +121,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="card col-md-6 shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiReact size={60} style={{ color: "#e47a08" }} />
+            <DiReact size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -138,11 +138,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="card col-md-6 shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <DiNodejsSmall size={60} style={{ color: "#e47a08" }} />
+            <DiNodejsSmall size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">
@@ -155,11 +155,11 @@ export default function Profile() {
           </div>
         </div>
         <div
-          className="card col-md-6 shadow border-light mt-2 p-3"
+          className={`col-md-6 shadow border-light card mt-2 p-3 ${styles.profile}`}
           style={{ width: "18rem" }}
         >
           <div className="d-flex justify-content-center position-absolute top-0 start-50 translate-middle">
-            <AiOutlineDocker size={60} style={{ color: "#e47a08" }} />
+            <AiOutlineDocker size={60} className={`${styles.icon}`} />
             <span className=""></span>
           </div>
           <div className="class-body">

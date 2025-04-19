@@ -54,3 +54,30 @@
   color: white;
   margin-top: -0.9rem;
 }
+
+.profile {
+  transition: all 0.5s ease;
+  background-color: white;
+  color: black;
+}
+
+.profile:hover {
+  background-color: #e47a08;
+  color: white;
+}
+
+.profile:hover .icon{
+  background-color: white;
+  color: #e47a08;
+  transform: translate(10px, -10px);
+  border: 2px solid #e47a08;
+  border-color: #e47a08;
+  border-radius: 10px;
+}
+
+.icon {
+  transition: all 0.5s ease;
+  color: #e47a08;
+  border: initial;
+  border-radius: initial;
+}
